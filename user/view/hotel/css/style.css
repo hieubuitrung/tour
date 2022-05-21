@@ -1,0 +1,372 @@
+@import url(base.css);
+.home__background {
+    margin-top: -4cm;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url('../img/frontview.png');
+}
+.search {
+    width: 100%;
+    background: var(--bg-section);
+    position: relative;
+}
+
+.search__container__tabs {
+    position: absolute;
+    bottom: 100%;
+    cursor: pointer;
+}
+
+.search__container__tabs .row {
+    align-items: center;
+    height: 94px;
+    margin-left: 1px;
+}
+
+.search__container__tab {
+    height: 100%;
+    background-color: var(--white-color);
+    transition: all .3s ease;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    flex-grow: 1;
+    justify-content: center;
+}
+.search__container__tab:first-child {
+    border-top-left-radius: 94px;
+}
+
+.search__container__tab:last-child {
+    border-top-right-radius: 94px;
+}
+/* Đổi màu nút ở thanh tìm kiếm */
+.search__container__tab:hover{
+    background-color: var(--yellow); 
+    /* Background đổi vàng */
+    color: var(--white-color);
+    /* Chữ đổi màu trắng */
+}
+.search__container__tab img {
+    margin-right: 10px;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.search__container {
+    height: 192px;
+}
+
+.search__container .row {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.search__container--item {
+    padding-right: 15px;
+}
+
+.search__container--item span {
+    display: block;
+    cursor: default;
+}
+
+.search__container--item input,
+.search__container--item select {
+    height: 46px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    color: #929191;
+    padding: 15px;
+}
+
+.search__container--item span {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.search__container--btn {
+    height: 53px;
+    background-color: var(--btn-black);
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    line-height: 53px;
+    margin-top: 30px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.search__container--btn:hover {
+    opacity: .7;
+}
+
+.search__container--btn a {
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 10px;
+}
+/* Offer */
+
+.offers {
+    background-color: var(--white-lower);
+}
+
+.offers__container {
+    padding: 90px 0;
+}
+
+.offers__container h2 {
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+.offer__container__item {
+    margin-top: 70px;
+    position: relative;
+}
+
+.offer__item__img--container {
+    padding-right: 20px;
+}
+
+.offer__container__item>.row>.col {
+    position: relative;
+}
+
+.offer__item__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+}
+
+.offer__container__item-name {
+    position: absolute;
+    left: 0;
+    bottom: 27px;
+    width: 180px;
+    height: 33px;
+    background: var(--yellow);
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.offer__container__item-name:hover {
+    opacity: .85;
+}
+
+.offer__container__item-name a {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 35px;
+    padding-left: 22px;
+}
+
+.offer__container__item--content {
+    padding: 0 15px;
+}
+
+.offers__item__price {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--offer-color);
+    line-height: 25px;
+}
+
+.offers__item__price span {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--grey);
+    margin-left: 5px;
+}
+
+.offer__container__item--content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--grey);
+    margin: 16px 0;
+    line-height: 2;
+}
+
+.offer__container__item--content a {
+    display: block;
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 65px;
+    transition: all .4s ease;
+}
+/* Special */
+.special{
+    background-color: var(--white-lower);
+}
+.special p{
+    color: var(--grey);
+}
+.special h1{
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+.special h4{
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+table{
+    border-spacing: 10px;
+}
+
+td{
+    width: 600px;
+}
+table{
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Contact */
+
+.contact {
+    position: relative;
+}
+
+.contact__background {
+    position: absolute;
+    bottom: -34px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../diadiem/contactcoconut.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.contact__container__form {
+    position: relative;
+    margin-top: 40px;
+    padding: 74px 48px 88px 48px;
+    background: var(--border);
+    border-radius: 7px;
+}
+
+.contact__container__form h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.contact__form {
+    margin-top: 52px;
+}
+
+.contact__form input{
+    height: 48px;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    border-bottom: solid 2px #e1e1e1;
+}
+.contact__form textarea {
+    height: 126px;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 19px;
+    background: transparent;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    border-bottom: solid 2px #e1e1e1;
+    padding-top: 11px;
+}
+
+.contact__form input::placeholder,
+.contact__form textarea::placeholder {
+    color: var(--white-color);
+}
+.contact_form_name,
+.contact_form_email {
+    width: calc((100% - 30px) / 2);
+}
+.contact_form_name {
+    margin-right: 20px;
+}
+
+.contact_form_subject {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.form_submit_button {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 53px;
+    padding: 0 29px;
+    background: #31124b;
+    transform: translateY(15px);
+    border: none;
+    outline: none;
+    margin-top: 37px;
+    cursor: pointer;
+    display: inline-block;
+    height: 53px;
+    border-radius: 27px;
+    overflow: hidden;
+}
+
+.form_submit_button:hover {
+    opacity: .8;
+}
+
+.contact__form span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 5.75px;
+    height: 5.63px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 2px;
+    margin-top: -2px;
+}
+.hotel_rating{
+    height: 48px;
+    background-color: transparent;
+    color: white;
+}

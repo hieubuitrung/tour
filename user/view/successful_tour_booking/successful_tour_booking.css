@@ -1,0 +1,165 @@
+    .page-title {
+        background-repeat: no-repeat;
+        background-size: cover;  /* tỉ lệ giữ nguyên và lấy chiều dài nhất có thể, chấp nhận cắc xén phần nào  */
+        background-position: center;
+    }
+
+    .page-title .title-table {
+        margin-top: 130px;
+        height: 200px;
+        line-height: 200px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .page-title-title-info h1 {
+        font-size: 3rem;
+        color: var(--white-color);
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 50px;
+        line-height: initial; /*trở về giá trị mặc định của nó */
+        display: inline-block;
+        padding-bottom: 10px;
+        border-bottom: 4px solid var(--white-color);
+    }
+
+
+
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+
+
+    .alert-success {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+        font-size: 1.4rem;
+        margin-top: 30px;
+    }
+
+    .info-title h2 {
+        font-weight: 400;
+        color: #222;
+        font-size: 2rem;
+        margin-bottom: 25px;
+        text-transform: capitalize; /* viết hoa chữ đầu tiên của từ */
+    }
+
+    .image-box-relative  {
+        height: 0px;
+    }
+
+    .image-box-relative img {
+        height: auto;
+        width: 100%;
+    }
+
+    .image-box-3x2 {
+        padding-bottom: 66.66%;
+    }
+
+    .confirm-info {
+        padding: 25px 15px;
+    }
+
+    .confirm-info .info-title h2 {
+        font-size: 2rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-bottom: 25px;
+    }
+
+    .confirm-info .info-title h2 a {
+        color: #ff891e;
+        letter-spacing: .8px;
+    }
+
+    .confirm-info p {
+        margin-bottom: 25px;
+        font-size: 1.4rem;
+        color: #666;
+        font-weight: 400;
+        line-height: 21px;
+
+    }
+
+
+    /* ticket tour */
+
+    .book-details-info {
+        margin-top: 47px;
+        box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 40%);
+        width: 100%;
+    }
+
+    .info-area {
+        padding: 20px;
+        background-color: #f5f5f5;
+        border-radius: 0 0 4px 4px;
+    }
+
+    .book-details-info .info-area .list-unstyled {
+        margin-bottom: 20px;
+        list-style: none;
+    }
+
+    .book-details-info .info-area .list-unstyled li {
+        padding: 7px 0;
+        border-bottom: 0;
+        font-size: 1.4rem;
+        color: #555;
+    }
+
+    .book-details-info .info-area .list-unstyled li i {
+        margin-right: 5px;
+    }
+
+    .book-details-info .info-area .list-unstyled li span {
+        font-weight: 600;
+        color: #333;
+    }
+
+    .price-total h2 {
+        text-transform: capitalize;
+        color: #555;
+        font-size: 2.6rem;
+        font-weight: 400;
+    }
+
+    .price-total span:first-child {
+        color: #ff891e;
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+
+    .price-total span:last-child {
+        font-size: 1.6rem;
+        color: #000;
+        font-weight: 500;
+        line-height: 21px;
+        text-transform: lowercase;
+    }
+
+    .info-area .button-price {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .info-area .button-price .button-link {
+        font-size: 2rem;
+        color: var(--white-color);
+        background-color: #ff891e;
+        padding: 5px 10px;
+        border-radius: 2px;
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            padding: 0 15px;
+        }
+    }

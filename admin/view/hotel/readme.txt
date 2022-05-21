@@ -1,0 +1,1 @@
+bỏ vào đường dẫn \QuanLyDuLich\admin\view\front-end

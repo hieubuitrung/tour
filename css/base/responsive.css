@@ -1,0 +1,756 @@
+/* >= pc low resolution */
+
+@media (min-width: 993px) {
+    .sub-icon-up--mobile,
+    .icon-up--mobile,
+    .sub-icon-down--mobile,
+    .icon-down--mobile {
+        display: none;
+    }
+
+    .wrap-select {
+        display: none;
+    }
+
+    .discover-img-desc--mobile {
+        display: none;
+    }
+    
+}
+
+
+/* >= pc high resolution */
+@media (max-width: 1200px){
+    .container {
+        width: 970px;   
+    }
+    
+}
+
+
+ /* <= tablet */
+@media (max-width: 992px) {
+    
+    :root {
+        --height-header: 56px;
+        --bg-nav-mobile: #fff8df;
+    }
+
+    .container {
+        width: 750px;
+        max-width: 100%;
+    }
+
+    header .container {
+        width: 100%;
+        margin: 0;
+        padding: unset;
+    }
+
+    header {
+        height: var(--height-header);
+    }
+
+    #logo {
+        width: 88px;
+        left: 10px;
+    }
+
+    .nav-icon__mobile {
+        display: block;
+    }
+
+    .toplinks {
+        right: 67px;
+        height: 56px;
+    }
+    
+    
+    .toplinks .user {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 8px;
+    }
+
+    .container__mobile {
+        flex-direction: column;
+        margin: unset;
+        width: 100%;
+    }
+
+    .main-nav {
+        height: unset;
+        margin: unset;
+        padding: unset;
+        width: 100%;
+    }
+
+    .nav-icon__mobile {
+        float: right;
+    }
+
+    .main-nav-list {
+        display: none;
+        margin-top: var(--height-header);     
+    }
+
+    .main-nav-list li {
+        height: 44px;
+        float: unset;
+        width: 100%;
+        color: var(--text-color);
+        background-color: #ebebeb;
+        border-bottom: 1px solid #959595;
+        animation: fadeIn .3s ease forwards;
+    }
+
+    .main-nav-item {
+        position: relative;
+    }
+
+    .main-nav-list > li > a {
+        padding: 0 15px;
+        height: 44px;
+        letter-spacing: .05rem;
+    }
+
+    .main-nav-list li .flyout li{
+       animation: fadeIn ease .3s forwards;
+    }
+
+    .nav-icon__mobile i {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 2.4rem;
+        padding: 0 8px;
+        line-height: var(--height-header);
+        -webkit-font-smoothing: antialiased; /* bỏ cái ... ở mobile khi click */
+    }
+
+    .btn-bars__mobile {
+
+    }
+    
+    .header__home-item {
+        display: block;
+    }
+
+    .flyout {
+        position: unset;
+    }
+
+    .vietnam-now {
+        width: 100%;
+    }
+
+    .flyout .vietnam-now-show {
+        display: block;
+    }
+
+    .flyout .vietnam-now-show {
+        padding: 0;
+    }
+
+    .flyout .vietnam-now-show li {
+        height: auto;
+        background-color: var(--bg-nav-mobile);
+        margin-bottom: 0;
+    }
+
+    .vietnam-now-show li a {
+        line-height: 43px;
+    }
+
+    
+    /* places-to-go  */
+    .place-to-go-img {
+        display: none;
+    }
+
+    .place-to-go-container {
+        flex-direction: column;
+        padding-top: 0;
+        width: 100%;
+    }
+
+    .place-to-go-container > div {
+        width: 100%;
+        padding: 0;
+    }
+
+    .place-to-go-title {
+        margin-bottom: 0;
+    }
+
+    .place-to-go-title a {
+        line-height: 45px;
+        width: 100%;
+        padding: 0 15px;
+        font-weight: bold;
+        background-color: var(--white-color);
+        border-bottom: 1px solid #959595;
+    }
+
+    .place-to-go-list {
+        width: 100%;
+        padding: 0;
+    }
+
+    .place-to-go-item {
+        margin-bottom: 0;
+        line-height: 45px;
+        padding-left: 30px;
+    }
+    
+
+    .place-to-go-item a {
+        padding-left: 15px;
+        width: 98%;
+    }
+
+    .place-to-go-map {
+        display: none;
+    }
+
+    .place-to-go-list {
+        display: none;
+    }
+
+    /* things to do  */
+    .things-to-do {
+        padding-top: 0;
+    }
+    .things-to-do-container > div{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .things-to-do-left {
+        padding: 0;
+        width: 100%;
+    }
+
+    .things-to-do-left > div {
+        flex-direction: column;
+    }
+
+    .things-to-do-left > div > div {
+        width: 100%;
+    }
+
+    .things-to-do-title {
+        margin-bottom: 0;
+        background-color: var(--white-color);
+        border-bottom: 1px solid #959595;
+        position: relative;
+    }
+    
+    .things-to-do-title a {
+        line-height: 45px;
+        padding: 0 15px;
+        font-weight: bold;
+        display: block;
+    }
+
+    .things-to-do-list {
+        width: 100%;
+        padding: 0;
+    }
+
+    .things-to-do-list .has-arrow {
+        line-height: 45px;
+        height: 45px;
+        margin-bottom: 0;
+        background-color: #fff8df;
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .things-to-do-list .has-arrow a {
+        flex: 1;
+    }
+
+    .things-to-do-right {
+        padding: 0;
+        width: 100%;
+    }
+
+    .things-to-do-festival {
+        width: 100%;
+        padding: 0;
+        display: block;
+    }
+
+    .things-to-do-event:nth-child(1) {
+        width: 100%;
+        margin-bottom: 0;
+        height: auto;
+        background-color: #000;
+    }
+
+    .things-to-do-event:nth-child(2),
+    .things-to-do-event:nth-child(3) {
+        display: none;
+    }
+
+    .things-to-do-festival .red-link {
+        padding-left: 45px;
+        background-color: #fff8df;
+    }
+
+    /* plan your trip  */
+    .plan-your-trip-list {
+        display: none;
+    }
+
+    .plan-your-trip-right {
+        display: none;
+    }
+
+    .plan-your-trip-left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .plan-your-trip-left > div {
+        flex-direction: column;
+    }
+
+    .plan-your-trip-left > div > div {
+        width: 100%;
+        padding: 0;
+    }
+
+    .plan-your-trip-left .show .nav-mobile {
+        background-color: #fff8df;
+    }
+
+    .plan-your-trip-left .nav-mobile a {
+        line-height: 45px;
+        padding-left: 45px;
+        display: block;
+        margin: 0;
+    }
+
+    .plan-your-trip-left .show {
+        width: 100%;
+        padding: 0;
+    }
+
+    .plan-your-trip-container {
+        padding: 0;
+    }
+
+    .plan-your-trip-container > div {
+        width: 100%;
+    }
+
+    .plan-your-trip-itinerasies {
+        border-left: none;
+    }
+
+    .plan-your-trip-title {
+        margin: 0;
+    }
+
+    .plan-your-trip-title a {
+        line-height: 45px;
+        padding-left: 45px;
+        color: var(--primary-color);
+        display: block;
+    }
+
+    /* en  */
+    .main-nav-list li {
+        position: relative;
+    }
+
+    .sub-icon-up--mobile,
+    .icon-up--mobile,
+    .sub-icon-down--mobile,
+    .icon-down--mobile {
+        position: absolute;
+        right: 0;
+        padding: 0 20px;
+        top: 0;
+        line-height: 45px;
+        font-size: 1.4rem;
+        -webkit-font-smoothing: antialiased; /* bỏ cái ... ở mobile khi click */
+    }
+
+    .sub-icon-down--mobile,
+    .icon-down--mobile { 
+        color: var(--title-color);
+    }
+    
+    .sub-icon-up--mobile,
+    .icon-up--mobile {
+        color: var(--primary-color);
+    }
+
+    .main-nav-list li .flyout {
+        width: 100%;
+    }
+
+    .en-container {
+        padding: 0;
+    }
+
+    .en-link {
+        padding: 0 0 0 15px;
+        background-color: #fff8df;
+        display: block;
+        line-height: 45px;
+    }
+
+    .main-nav-list > li:hover > a{
+        border-bottom: 2px solid var(--primary-color);
+    }
+
+    .main-nav-item  a i {
+        display: none;
+    }
+
+    .main-nav-list > li > a:hover {
+        background-color: unset;
+    }
+
+    .height--auto {
+        height: auto !important;
+    }
+
+    .flyout{
+        animation: fadeIn ease .3s forwards;
+    }
+
+/* container */
+
+    .inspires-interests ul {
+        display: none;
+    }
+
+    .inspired-heading {
+        font-size: 5.5rem;
+    }
+
+    .inspired-desc {
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+
+    .inspired-active {
+        font-size: 1.6rem;
+    }
+
+    .wrap-select {
+        background: var(--primary-color);
+        height: 40px;
+        line-height: 38px;
+        border-radius: 5px;
+        padding: 0 0 0 10px;
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+
+    .wrap-select select {
+        border: none;
+        text-transform: uppercase;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        outline: 0;
+        cursor: pointer;
+        background: url(../img/select-white.png) 100% no-repeat var(--primary-color);
+        appearance: none; /* bỏ mũi tên của thẻ select */
+    }
+
+    .wrap-select select option {
+        background: #ebebeb;
+        color: #252525;
+    }
+
+    .montserrat-bold {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .discover-item {
+        display: none;
+    }
+
+    .show--mobile {
+        display: block;
+    }
+
+    .discover-bg-img {
+        padding-bottom: 50%;
+    }
+
+    .discover-img-desc--mobile {
+        border: 2px solid #fff;
+        border-radius: 4px;
+        padding: 4px 10px;
+        display: inline-block;
+        margin-top: 8px !important;
+        font-size: 1.5rem;
+        line-height: 22px;
+    }
+
+    .discover-img-desc--mobile i {
+        line-height: 22px;
+        font-size: 1.2rem;
+    }
+
+    .author-container-title h2 {
+        font-size: 5.5rem;
+    }
+
+    .section-heading {
+        font-size: 5.5rem;
+    }
+
+    .upcoming-events__subtitle {
+        font-size: 1.6rem;
+    }
+
+    .block-event .info .title {
+        font-size: 2rem;
+    }
+
+    .section-desc {
+        margin: 0 10px 10px;
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .slider-item-title {
+        font-size: 7rem;
+    }
+
+    .thumbnail {
+        margin: 0;
+    }
+
+    .thumbnail p {
+        padding: 20px 9px 9px;
+        margin:0 0 5px;
+    }
+
+    /* footer  */
+    footer {
+        padding-bottom: 60px;
+    }
+    .useful-links {
+        padding-left: 10px;
+    }
+
+    footer h4 {
+        margin-bottom: 0;
+        margin-top: 50px;
+    }
+
+    .socials {
+        margin-bottom: 10px;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .clearfix {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clearfix li {
+        margin: 0;
+        line-height: 2rem;
+    }
+
+    .block-event a:hover img {
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+}
+
+
+
+/* mobile  */
+@media (max-width: 768px) {
+    .inspired-heading {
+        font-size: 2.5rem;
+    }
+
+    .red-link {
+        font-size: 1.6rem;
+    }
+
+    .discover-img-title h3 {
+        font-size: 5.5rem;
+    }
+
+    .author-container-title h2 {
+        font-size: 2.5rem;
+    }
+
+    .slick-dots {
+        bottom: 65px;
+    }
+
+    .author-items > div {
+        display: block;
+        padding: 15px;
+    }
+
+    .slick-dots {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        padding-top: 15px;
+        padding-bottom: 35px;
+    }
+
+    .slick-dots li {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background-color: #666;
+        border-radius: 50%;
+        margin: 0 5px;
+        transition: all .3s ease-in-out;
+    }
+
+    .slick-dots li button {
+        display: none;
+    }
+
+    li.slick-active {
+        background-color: #000;
+    }
+
+    .author-item {
+        padding: 5px;
+        background-color: var(--white-color);
+    }
+
+    .author-container-title p {
+        padding-bottom: 15px;
+    }
+
+    .section-heading {
+        font-size: 2.5rem;
+    }
+
+    .wrap-events {
+        margin-top: 0;
+
+    }
+
+    .block-event a {
+        height: 0;
+        padding-bottom: 40%;
+    }
+    
+    .block-event img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .block-event .info {
+        padding: 10px;
+    }
+    
+    .bx-viewport__list .item a img {
+        height: 100%;
+        width: auto;
+    }
+
+    .also-like-items .slick-dots li {
+        width: 14px;
+        height: 14px;
+        border: 1px solid #252525;
+        background-color: transparent;
+    }
+
+    .also-like-items .slick-dots li.slick-active {
+        background-color: #a5190e;
+        border-color: transparent;
+    }
+
+    .slider-link {
+        position: relative;
+        height: 0;
+        padding-bottom: 100%;
+        overflow: hidden;
+    }
+
+    .slider-link img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        height: 100%;
+        width: auto;
+        transform: translate(-50%, -50%);
+    }
+
+    .slider-item-title {
+        font-size: 5rem;
+        letter-spacing: 1px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        line-height: 1.4;
+    }
+
+    .slider-dots {
+        height: 20%;
+    }
+    .slider-dot-item:hover {
+        background-color: var(--white-color);
+    }
+
+    .wrap-thumb {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .wrap-thumb a {
+        margin: 5px 0;
+    }
+
+    .instagram-story .btn-view__link {
+        width: 100%;
+    }
+
+
+    footer h4 {
+        font-size: 1.4rem;
+        margin-top: 10px;
+    }
+
+    footer p {
+        margin-top: 10px;
+    }
+
+    .useful-links ul {
+        margin-top: 10px;
+    }
+
+    .useful-links {
+        margin-bottom: 20px;
+    }
+
+    .copyright {
+        padding: 25px 0;
+        margin-left: 15px;
+        width: auto;
+        margin-right: 15px; 
+    }
+
+    .social-item img {
+        margin-right: 4px;
+    }
+}

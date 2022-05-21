@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #fa9e1b;
+    --white-color: #fff;
+    --white-lower: #f3f6f9;
+    --violet: #8d4fff;
+    --yellow: #fa9e1b;
+    --black: #2d2c2c;
+    --grey: #929191;
+    --btn-black: #31124b;
+    --bg-section: linear-gradient(to right, #fa9e1b, #8d4fff);
+    --offer-color: #eda84a;
+    --border: linear-gradient(to right, #fa9e1b, #8d4fff);
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--white-lower);
+}
+
+

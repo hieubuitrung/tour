@@ -1,0 +1,115 @@
+/* Mobile & Tablet */
+@media (max-width: 1194px) {
+
+    .search {
+        padding: 60px 0;
+    }
+    .search__container--item span {
+        margin-top: 15px;
+    }
+    .search__container {
+        margin-top: 200px;
+        position: relative;
+        padding: 0 10px;
+    }
+    .search__container__tabs {
+        position: relative;
+        bottom: 100%;
+    }
+    .search__container__tab {
+        width: 47%;
+        margin: 5px;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+    }
+    .search__container__tab:first-child,
+    .search__container__tab:last-child {
+        border-radius: 0;
+        padding-left: 7px;
+    }
+    .search__container__tab.active {
+        background-color: var(--yellow);
+        color: var(--white-color);
+    }
+    .search__container__tabs {
+        height: 62px;
+    }
+    .search__container--btn {
+        margin-left: 62%;
+        margin-bottom: 25px;
+    }
+    .search__container {
+        height: 100%;
+    }
+    .search__container__tab:first-child{
+      border-top-left-radius: 50px;
+    }
+    .search__container__tab:last-child{
+      border-bottom-right-radius: 50px;
+    }
+}
+/* fix search bar tren ipad pro */
+@media(min-width: 770px) and (max-width: 1194px) {
+    .search__container__tabs{
+        padding-left: 2cm;
+        padding-right: 70px;
+    }
+}
+/* fix search bar tren ipad */
+@media(min-width:740px) and (max-width:770px){
+    .search__container__tabs{
+        padding-right: 22px;
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    .search__container {
+        height: 467px;
+    }
+    .search__container__tabs {
+        margin: 0 10px;
+    }
+    .search__container--item {
+        padding: 0 5px;
+    }
+    .offer__container__item {
+        padding: 0 15px;
+        margin-top: 70px;
+    }
+    .grid {
+        width: 100%;
+    }
+}
+@media (max-width: 479px) {
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .search__container--btn {
+        height: 42px;
+    }
+    .search__container--btn a {
+        font-size: 12px;
+    }
+    .search__container__tabs {
+        padding-right: 10px;
+    }
+    .search__container__tab {
+        width: 100%;
+    }
+    .search__container__tab:first-child,
+    .search__container__tab:last-child {
+        border-radius: 0;
+        padding-left: 0px;
+    }
+    .search__container__tab:last-child {
+        padding-right: 0;
+    }
+    .search__container {
+        margin-top: 380px;
+    }
+  }
+  

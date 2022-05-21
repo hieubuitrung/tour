@@ -1,0 +1,433 @@
+:root {
+    --btn-color: #ff891e;
+    --white-color: #fff;
+    --red-color: #FF002C;
+    --title-tour-color: #05558a;
+    --destination-color: #1b0b0b;
+    --date-color: #969696;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+strong {
+    font-weight: 700;
+    display: inline-block;
+}
+
+
+.btn {
+    display: inline-block;
+    border-radius: 4px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+}
+
+.orange-btn {
+    background: var(--btn-color);
+    border: 0;
+    margin: 0 auto;
+    color: var(--white-color);
+    border-radius: 3px;
+    line-height: 22px;
+    padding: 5px 15px;
+}
+
+/* background-layout */
+
+.background-page-tour {
+    position: relative;
+}
+
+.background-page-tour .page-image-tour-tag {
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-page-tour .container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #00000080;
+    padding: 15px 25px;
+}
+
+.background-description .tour-banner-title {
+    font-size: 3.2rem;
+    color: var(--white-color);
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.background-description .sticker {
+    font-size: 1.4rem;
+    color: var(--white-color);
+    font-weight: 400;
+}
+
+/* main  */
+.detail-tour-kiritm .info-tour {
+    position: relative;
+}
+
+.detail-tour-kiritm .info-tour .promotion-tour {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    background: var(--red-color);
+    line-height: 30px;
+    max-width: 80%;
+}
+
+.detail-tour-kiritm .info-tour .promotion-tour:after {
+    content: " ";
+    left: calc(100% - 15px);
+    top: 49%;
+    border: solid var(--red-color);
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: var(--red-color);
+    border-right-color: transparent;
+    border-width: 15px;
+    margin-top: -15px;
+}
+
+.detail-tour-kiritm .info-tour .promotion-tour .text-promotion-tour {
+    position: relative;
+    padding: 0 25px 0 15px;
+    font-size: 1.3rem;
+    color: var(--white-color);
+    font-weight: 600;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.detail-tour-kiritm .info-tour .row-info {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.detail-tour-kiritm .info-tour .row-info span {
+    font-size: 1.3rem;
+    line-height: 26px;
+    padding-right: 6px;
+}
+
+.detail-tour-kiritm .info-tour .row-info span.text-strong {
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding-right: 15px;
+}
+
+/* .text-uppercase {
+    text-transform: uppercase;
+} */
+
+.detail-tour-kiritm .list-tour-detail {
+    background: #ffeddf;
+    padding: 6px 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.detail-tour-kiritm .list-tour-detail .tour-detail-header-col {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border-bottom: 1px solid #333;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 21px;
+}
+
+.detail-tour-kiritm .list-tour-detail .tour-detail-content-col .list-inline {
+    margin: 0;
+    line-height: 32px;
+}
+
+.detail-tour-kiritm .list-tour-detail .tour-detail-content-col .list-inline strong {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 35px;
+}
+
+.list-inline .row .price {
+    color: var(--btn-color);
+}
+
+.detail-tour-kiritm .list-tour-detail .tour-detail-content-col .list-inline .action-book {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 2px 0;
+}
+
+.detail-tour-kiritm .list-tour-detail .tour-detail-content-col .list-inline .action-book .btn-buy-tour {
+    line-height: 26px;
+    font-size: 1.3rem;
+    padding: 0 8px;
+    color: var(--white-color);
+    background: var(--btn-color);
+    margin: 0 auto;
+    min-width: 107px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.detail-tour-kiritm .row-description {
+    width: 100%;
+}
+
+.detail-tour-kiritm .row-description .title-description {
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.detail-tour-kiritm .row-description .content-description {
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+
+/* lịch trình */
+.detail-tour-kiritm .row-info-tour .nav-tabs {
+    border-bottom: 1px solid #000;
+    display: flex;
+}
+
+.detail-tour-kiritm .row-info-tour .nav-tabs > li.active {
+    border: 1px solid #000;
+    border-bottom-color: transparent;
+    border-radius: 5px;
+}
+
+.detail-tour-kiritm .row-info-tour .nav-tabs > li.active > a {
+    border: 0;
+    color: var(--btn-color);
+    font-weight: 600;
+}
+
+.nav-tabs>li {
+    color: var(--destination-color);
+    position: relative;
+    display: block;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: var(--destination-color);
+    transition: all .3s ease-in-out;
+    font-weight: 600;
+}
+
+.nav-tabs>li>a:hover {
+    color: var(--btn-color);
+    background-color: #eee;
+}
+
+.nav-tabs>li.active>a:hover  {
+    background-color: var(--white-color);
+}
+
+.common-info {
+    margin-top: 10px;
+}
+
+.common-info p {
+    margin-bottom: 25px;
+    letter-spacing: .8px;
+}
+
+.common-info > p > img {
+    width: 100%;
+}
+
+p {
+    font-size: 1.4rem;
+    color: var(--destination-color);
+    font-weight: 400;
+    line-height: 21px;
+}
+
+/* task bar  */
+
+.right-detail-tour-box {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.right-detail-tour-box .title {
+    color: var(--btn-color);
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 7px;
+    width: 100%;
+}
+
+.right-detail-tour-box .list-rows .item {
+    padding-left: 8px;
+    width: 100%;
+}
+
+.right-detail-tour-box .list-rows .item > .item-line {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.right-detail-tour-box .list-rows .item > .item-line > i {
+    color: #333;
+    margin-right: 8px;
+    font-size: 1.6rem;
+    line-height: 24px;
+}
+
+.right-detail-tour-box .list-rows .item > .item-line > .text {
+    flex: 1;
+    color: #333;
+    font-size: 1.3rem;
+    float: left;
+    line-height: 24px;
+}
+
+.right-detail-tour-box .callback-sgt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.right-detail-tour-box .callback-sgt .btn-callback-sgt {
+    padding: 5px 15px;
+    background-color: var(--btn-color);
+    color: var(--white-color);
+    border-radius: 3px;
+    line-height: 22px;
+    border: 0;
+    cursor: pointer;
+}
+
+/* quảng cáo */
+.advertisement {
+    padding: 0 10px;
+}
+
+.advertisement a img {
+    width: 100%;
+}
+
+.list-inline label, .list-inline h5 {
+    display: none;
+}
+
+/* > mobile */
+@media (min-width: 768px) {  
+    .card-header {
+        display: none;
+    }
+}
+
+/* <= mobile */
+@media (max-width: 768px) {  
+
+    .background-page-tour .container {
+        width: calc(100% - 30px);
+        bottom: 22px;
+    }
+
+    .background-page-tour .page-image-tour-tag {
+        height: 350px;
+    }
+
+    .background-description .tour-banner-title {
+        font-size: 1.6rem;
+    }
+
+    .list-inline label {
+        display: block;
+        float: left;
+        width: 115px;
+        line-height: 35px;
+        font-weight: bold;
+    }
+
+    .list-inline h5 {
+        font-weight: bold;
+        display: block;
+        text-align: left;
+        color: #ff891e;
+        float: left;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    .tour-detail-title-information {
+        display: none;
+    }
+
+    .detail-tour-kiritm .row-info-tour .nav-tabs {
+        display: none;
+    }
+
+    .card-header-text {
+        position: relative;
+    }
+
+    .btn-link-kirirm {
+        border: 0;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 26px;
+        color: #0b58a2;
+        padding: 7px 10px;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 10px;
+        background-color: #efefef;
+    }
+
+    .glyphicon {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(calc(-50% - 5px));
+        color: #0b58a2;
+        font-size: 1.5rem;
+    }
+
+    .card-header {
+        display: block;
+    }
+}

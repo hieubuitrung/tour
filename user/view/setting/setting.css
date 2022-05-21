@@ -1,0 +1,149 @@
+:root {
+    --text-color: #333;
+}
+
+.setting-user {
+    margin-top: 54px;
+    margin-bottom: 48px;
+}
+
+.setting-heading {
+    color: var(--text-color);
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.info-user {
+    width: 75%;
+    position: relative;
+}
+
+.info-user-heading {
+    font-size: 2.2rem;
+    color: var(--text-color);
+    margin: 0 0 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    font-weight: 600;
+}
+
+.update {
+    display: flex;
+}
+
+.update #cancel,
+.update input#button {
+    padding: 0 18px;
+    background-color: #fff;
+    font-size: 1.4rem;
+    height: 37px;
+    line-height: 37px;
+    border-radius: 30px;
+}
+
+.update input#button {
+    border: 1px solid #1a8917;
+    color: #1a8917;
+    margin-right: 8px;
+}
+
+.update #cancel {
+    border: 1px solid rgba(0,0,0,.15);
+    color: rgba(0,0,0,.54);
+}
+
+
+.info-user > form > div{
+    padding: 16px 0 20px;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+#email-user,
+#phone-number-user,
+#address-user,
+#citizen-id-user,
+#name-user {
+    width: 100%;
+    margin-top: 16px;
+    font-size: 1.4rem;
+    padding-bottom: 8px;
+    outline: none;
+    color: rgba(0, 0, 0, .84);
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    margin-bottom: 10px;
+}
+
+#avatar > div {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    max-width: 500px;
+    margin-top: 16px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.photo-avatar {
+    height: 100%;
+    width: 100%;
+}
+
+#icon-photo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.photo-file {
+    width: 60px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.photo-file img {
+    width: 100%;
+    height: 100%;
+}
+
+#upload-file {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+.message {
+    color: rgba(0, 0, 0, .4);
+    font-size: 1.2rem;
+}
+
+#form-update > div > input {
+    color: rgba(0, 0, 0, .6);
+}
+
+#photo-avatar {
+    width: 100%;
+    height: auto;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

@@ -1,0 +1,140 @@
+html {
+    font-size: 62.5%; /* mặc định 100% của thẻ html là: 16px, 62.5%: 10px */
+    line-height: 1.6rem; /* tương đương 16px */
+    font-family: 'Roboto', sans-serif; /* trong trường hợp font roboto chưa tải về kịp, lỗi thì nó sẽ lấy font trong chủng sans-serif thay thế cho đển khi roboto được tải về */
+    box-sizing: border-box;
+}
+
+.sign-in {
+    height: 100vh;
+    position: relative;
+}
+
+.form-container {
+    width: 480px;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px #000;
+    padding: 30px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 50px;
+}
+
+.form-container h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.social-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-container a {
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+
+.social i {
+    font-size: 2.8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #5f6c6f;
+}
+
+.form-container span {
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.form-container form > div {
+    width: 100%;
+}
+
+.form-container form > div > input {
+    padding: 12px 15px;
+    margin: 8px 0;
+    background-color: #eee;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    width: 100%;
+    color: #5f6c6f;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.form-container form > div .message {
+    color: red;
+    width: 100%;
+    height: 10px;
+    font-size: 1rem;
+    line-height: 10px;
+    letter-spacing: .5px;
+}
+
+.form-container #button {
+    border-radius: 20px;
+    border: 1px solid #a5190e;
+    background-color: #a5190e;
+    -webkit-background-color: #a5190e;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    margin: 8px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    width: 100%;
+}
+
+/* khi ấn vào giữ button  */
+.form-container #button:active { 
+    transform: scale(0.95);
+}
+
+
+.sign_up {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 8px;
+}
+
+.sign_up a {
+    display: inline-block;
+    color: #f05123;
+    text-decoration: none;
+}
+
+
+/* mobile  */
+@media (max-width: 768px) { 
+    form {
+        padding: 0 16px;
+    }
+
+    .form-container {
+        max-width: calc(100% - 32px);
+    }
+}

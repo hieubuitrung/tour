@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-content.booking-container {
+    padding-bottom: 70px;
+}
+
+.page-title {
+    background-repeat: no-repeat;
+    background-size: cover;  /* tỉ lệ giữ nguyên và lấy chiều dài nhất có thể, chấp nhận cắc xén phần nào  */
+    background-position: center;
+}
+
+.page-title .title-table {
+    margin-top: 130px;
+    height: 200px;
+    line-height: 200px;
+    width: 100%;
+}
+
+.page-title-title-info h1 {
+    font-size: 3rem;
+    color: var(--white-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main-content .container {
+    margin-top: 30px;
+}
+
+.booking-form .title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #262a2e;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+/* label thường dùng với radio, for, khi ấn label thì radio có id = for đc check  */
+label {
+    color: #888;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+}
+
+#info-form .title {
+    margin: 10px 0;
+}
+
+.form-group select,
+#info-form .form-group input {
+    height: 45px;
+    background-color: #e0e0e0;
+    color: #444;
+    font-size: 1.4rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    display: block;
+    padding: 6px 20px;
+    outline: none;
+    cursor: text;
+}
+
+.form-group select {
+    cursor: unset;
+}
+
+.button-area.gallery-btn-area {
+    padding: 60px 0;
+}
+
+.list-inline {
+    display: block;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.list-inline>li:hover #button,
+.list-inline>li:hover a{
+    background-color: #ff891e;
+    color: var(--white-color);
+}
+
+.list-inline>.pull-right>#button,
+.list-inline>li>a {
+    padding: 0 30px;
+    border: 1px solid #ff891e;
+    color: #444;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+    transition: all .3s ease-in-out;
+}
+
+.list-inline>.pull-right {
+    float: right;
+}
+
+
+
+
+
+
+.info-title-kiritm {
+    margin: 25px 0;
+    text-align: center;
+    line-height: 44px;
+    background: #ff891e;
+    color: var(--white-color);
+    font-size: 1.8rem;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.book-details-info {
+    box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 40%);
+    width: 100%;
+}
+
+.book-details-info>img {
+    width: 100%;
+}
+
+.book-details-info .info-area {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 0 0 4px 4px;
+}
+
+.book-details-info .info-area > h3 {
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+.book-details-info .info-area > h3 > a {
+    color: #036;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.book-details-info .info-area .list-unstyled {
+    margin-bottom: 20px;
+}
+
+.book-details-info .info-area .list-unstyled > li {
+    padding: 7px 0;
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.book-details-info .info-area .list-unstyled > li > i {
+    margin-right: 5px;
+}
+
+.book-details-info .info-area .list-unstyled > li > span {
+    font-weight: 600;
+    color: #000;
+}
+
+.book-details-info .info-area .list-unstyled > li > span > strong {
+    font-size: 1.7rem;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.book-details-info .info-area .price-totol {
+    text-transform: capitalize; /* viết hoa chữ đầu tiên mỗi từ */
+    color: #333;
+    font-weight: 400;
+}
+
+.book-details-info .info-area .price-totol > h2 {
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+
+.book-details-info .info-area .price-totol > h2 > span {
+    color: #ff891e;
+    font-weight: 700;
+}
+
+.book-details-info .info-area .price-totol > h2 > span > .price-label {
+    font-size: 1.6rem;
+    color: #000;
+    font-weight: 500;
+    line-height: 21px;
+    text-transform: lowercase;
+}
+
+.form-group .message {
+    color: red;
+    margin-top: 10px;
+    font-size: 1rem;
+    height: 10px;
+    line-height: 10px;
+    letter-spacing: .5px;
+}

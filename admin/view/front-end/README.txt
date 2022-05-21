@@ -1,0 +1,1 @@
+các thư mục này phải được bỏ vào trong folder view
