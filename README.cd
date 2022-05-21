@@ -1,1 +1,9 @@
 
+Bài tập lớn môn phát triển website
+
+Website du lịch
+Ngôn ngữ sử dụng: HTML, CSS, Javascript, PHP
+
+Chức năng của website: 
+User: Đăng ký, đăng nhập, đặt tour, hủy tour, chỉnh sửa thông tin user, chỉnh sửa thông tin tour đã đặt.
+Admin: Thêm, sửa, xóa, cập nhật dữ liệu
