@@ -3,6 +3,8 @@ Bài tập lớn môn phát triển website
 
 Website du lịch
 Ngôn ngữ sử dụng: HTML, CSS, Javascript, PHP
+Database: MySQL
+Máy chủ local: XAMPP
 
 Chức năng của website: 
 User: Đăng ký, đăng nhập, đặt tour, hủy tour, chỉnh sửa thông tin user, chỉnh sửa thông tin tour đã đặt.
